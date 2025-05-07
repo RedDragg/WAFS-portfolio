@@ -30,6 +30,7 @@ body, html {
     --color-endcursor-typewriter: #fff;
   } 
 
+  li:not(:first-child)
   body:has(#darkmode:checked) {
     /* Wanneer de label met id darkmode is gechecked dan gaan deze kleuren in, daarom zijn ze dezelfde naam. */
     --bg-btn: #000; /* Dark mode kleur */
