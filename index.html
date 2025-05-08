@@ -545,7 +545,7 @@
         }
 
         header:has(#rocketbutton:checked) .countdown {
-            animation: --countdown-text 0.5s ease-in 12 alternate 12s;
+            animation: --countdown-text 0.5s ease-in 12 alternate 6s;
 
         }
 
@@ -554,6 +554,7 @@
         }
 
         .number {
+            color: white;
             &::after {
                 content: '';
                 display: flex;
@@ -834,7 +835,7 @@
             }
 
             100% {
-                content: 'Blast off!!';
+                content: 'Lift off!!';
                 font-size: clamp(1rem, 44vw, 25rem);
                 text-align: center;
             }
@@ -1440,13 +1441,36 @@
         #carousel-1 {
             background-color: #226de2;
         }
+
+        header{
+            &:has(#skip:checked){
+                display: none;
+            }
+
+            &:has(#rocketbutton:checked) > label {
+                display: none;
+            }
+
+            > label{
+                position: absolute;
+                bottom: 2rem;
+                padding: 1rem 2rem;
+                background: #0d1d31;
+                color: white;
+                border-radius: 1rem;
+                cursor: pointer;
+                z-index: 10;
+            }
+        }
     </style>
 </head>
 
 <body>
 
-    <!-- <header>
-
+    <header>
+        <label for="skip"> skip intro
+            <input type="radio" id="skip" name="skip" hidden>
+        </label>
         <div class="countdown">
             <span class="number"></span>
         </div>
@@ -1455,7 +1479,7 @@
                 <li class="rocketbutton">
                     <label for="rocketbutton" ><div class="rocket-text-container"><ul>
                         <li class="rtc-li"><p>Welkom</p></li>
-                        <li class="rtc-li"><p>Click to blast off!</p></li>
+                        <li class="rtc-li"><p>Click to lift off!</p></li>
                     </ul></div> <div class="rocketWindow"></div><input type="checkbox" id="rocketbutton" hidden></label></li>
                 <li class="rocketBottom"></li>
                 <ul class="rocketWings-left-container">
@@ -1483,7 +1507,7 @@
         </div>
         
         <div class="gas"></div>
-    </header> -->
+    </header>
 
     <nav>
         <img src="images/Eltonicon.png" alt="logo">
@@ -1769,7 +1793,7 @@ animation-delay:  calc(var(--index) * .5s);               animation-delay: calc(
                         <ul>
                             <li class="WN-datum">
                                 <p>Guest Teacher</p>
-                                <p>20 Maart 2025</p>
+                                <p>07 Maart 2025</p>
                             </li>
                             <li><h2>Erik Kroes</h2></li>
                             <li>
@@ -1890,7 +1914,7 @@ animation-delay:  calc(var(--index) * .5s);               animation-delay: calc(
                         <ul>
                             <li class="WN-datum">
                                 <p>Guest Teacher</p>
-                                <p>20 Maart 2025</p>
+                                <p>28 Maart 2025</p>
                             </li>
                             <li><h2>Erik Kroes</h2></li>
                             <li>
@@ -2020,7 +2044,7 @@ animation-delay:  calc(var(--index) * .5s);               animation-delay: calc(
                         <ul>
                             <li class="WN-datum">
                                 <p>Guest Teacher</p>
-                                <p>20 Maart 2025</p>
+                                <p>12 Maart 2025</p>
                             </li>
                             <li><h2>Jeremy Keith</h2></li>
                             <li>
@@ -2148,7 +2172,7 @@ animation-delay:  calc(var(--index) * .5s);               animation-delay: calc(
                         <ul>
                             <li class="WN-datum">
                                 <p>Weekly Nerd</p>
-                                <p>28 Maart 2025</p>
+                                <p>17 Maart 2025</p>
                             </li>
                             <li><h2>Julia Miocene</h2></li>
                             <li>
@@ -2914,7 +2938,7 @@ animation-delay:  calc(var(--index) * .5s);               animation-delay: calc(
                         <ul>
                             <li class="WN-datum">
                                 <p>Guest Teacher</p>
-                                <p>03 April 2025</p>
+                                <p>03 Maart 2025</p>
                             </li>
                             <li><h2>Roel Nieskens</h2></li>
                             <li>
