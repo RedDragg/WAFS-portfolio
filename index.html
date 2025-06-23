@@ -1015,8 +1015,8 @@
         #carousel-3 {
             background: radial-gradient(ellipse at bottom, #0d1d31 0%, #0c0d13 100%);
             padding: 1rem;
-            display: grid;
-            grid-template-columns: auto 1fr;
+            display: flex;
+            flex-direction: column;
             max-width: 90vw;
             gap: 1rem;
 
@@ -1028,9 +1028,13 @@
 
             >ul:first-of-type {
                 display: flex;
-                flex-direction: column;
+                flex-direction: row;
                 gap: 1rem;
-                padding: 1rem;
+                padding: 0 2rem;
+                overflow-x: auto;
+                height: 5rem;
+                width: 5rem;
+                
 
 
                 >li:first-of-type {
@@ -1040,6 +1044,8 @@
                         justify-content: center;
                     }
                 }
+
+
 
                 label {
                     display: flex;
@@ -1080,68 +1086,68 @@
 
             &:has(#Cassie:checked) {
                 .cassie {
-                    display: grid;
+                    display: flex;
                 }
 
             }
 
             &:has(#Erik:checked) {
                 .erik {
-                    display: grid;
+                    display: flex;
                 }
             }
 
             &:has(#Jeremy:checked) {
                 .jeremy {
-                    display: grid;
+                    display: flex;
                 }
             }
 
             &:has(#Julia:checked) {
                 .julia {
-                    display: grid;
+                    display: flex;
                 }
             }
 
             &:has(#Kilian:checked) {
                 .kilian {
-                    display: grid;
+                    display: flex;
                 }
             }
 
             &:has(#Niels:checked) {
                 .niels {
-                    display: grid;
+                    display: flex;
                 }
             }
 
             &:has(#Nienke:checked) {
                 .nienke {
-                    display: grid;
+                    display: flex;
                 }
             }
 
             &:has(#Nils:checked) {
                 .nils {
-                    display: grid;
+                    display: flex;
                 }
             }
 
             &:has(#Peter:checked) {
                 .peter {
-                    display: grid;
+                    display: flex;
                 }
             }
 
             &:has(#Rosa:checked) {
                 .rosa {
-                    display: grid;
+                    display: flex;
                 }
             }
 
             &:has(#Roel:checked) {
                 .roel {
-                    display: grid;
+                    display: flex;
                 }
             }
 
@@ -1244,7 +1250,7 @@
 
             article:not(.reflectie) {
                 display: none;
-                grid-template-columns: 1fr 1fr;
+                flex-direction: column;
                 gap: 1rem;
                 padding: 1rem;
                 transition: .5s;
@@ -1467,7 +1473,7 @@
 
 <body>
 
-    <header>
+    <!-- <header>
         <label for="skip"> skip intro
             <input type="radio" id="skip" name="skip" hidden>
         </label>
@@ -1507,7 +1513,7 @@
         </div>
         
         <div class="gas"></div>
-    </header>
+    </header> -->
 
     <nav>
         <img src="images/Eltonicon.png" alt="logo">
