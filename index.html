@@ -1,9 +1,9 @@
+<<<<<<<<< Temporary merge branch 1
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<<<<<<< HEAD
     <link rel="stylesheet" href="style/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/liquidjs/dist/liquid.browser.min.js"></script>
@@ -43,7 +43,195 @@
   
     <section class="hero-section">   
         <h1>Web Developer/ Designer</h1>
-=======
+        <ul>
+            <li><p>Communication Multimedia student</p></li>
+            <li><p>Te Hoge school van Amsterdam</p></li>
+        </ul>
+    </section>
+  
+    <section class="overMij">
+      <h1>Hallo, welkom op mijn pagina.</h1>
+      <p>Hier op deze onepager ga je mijn doelen, hobbies en opdrachten vinden van de minor Webdesign&development. Verder vind je ook een fotogalerij waar je een stukje over mezelf ziet.</p>
+  
+      <p> Zelf ben ik een Communication en Multimedia student aan de HvA TTH gebouw. Zelf weet ik nog niet welke kant ik op wil, de design kant of de programmeer kant? allebei vind ik wel leuk en doel erop dat ik een passie hierin kan vinden. Zelf heb ik al wel wat websites gebouwt, maar nog nooit echt uitgebracht. afgeslakte websites dus, maar heel leerzaam geweest.</p>
+        
+      <p id="fotogalerij">Ook speel ik volleybal, ik train 3 dagen in de week waarbij ik 1 wedstrijd wekelijks speel. Samen met mijn team hebben we wel de top 3 gehaald in een pool die best wel hoger is dan ons eigen niveau. Ik ben trots op de team die zo hard zijn gegroeid en ook op mezelf. Volgend seizoen willen wij zeker een klasse hoger spelen en verder vorderen. Een passie voor volleybal heb ik wel zeker!</p>
+  
+      <h2>Fotogalerij</h2>
+    </section>
+    <!-- BRON reverse scroll https://scroll-driven-animations.style/demos/reverse-scroll/css/ -->
+    <section class="columns" >
+        <ul class="column column-reverse">
+            <li><img src="{{customField.ImageUrl[0]}}"  alt="">
+                <p>Suriname 2020</p>
+            </li>
+            <li><img src="{{customField.ImageUrl[1]}}" alt="">
+                <p>Vormgeving 2021</p>
+            </li>
+            <li><img src="{{customField.ImageUrl[2]}}" alt="">
+                <p>Ace Ventura 2022</p>
+            </li>
+            <li><img src="{{customField.ImageUrl[3]}}" alt="">
+                <p>Bella kittycat 2021</p>
+            </li>
+        </ul>
+        <ul class="column">
+          <li><img src="{{customField.ImageUrl[4]}}" alt="">
+              <p>Me as a clown 2023</p>
+          </li>
+          <li><img src="{{customField.ImageUrl[5]}}" alt="">
+              <p>ComicCon 2024</p>
+          </li>
+          <li><img src="{{customField.ImageUrl[6]}}" alt="">
+              <p>Dutch design week 2024</p>
+          </li>
+          <li><img src="{{customField.ImageUrl[7]}}" alt="">
+              <p id="hobbies">Frankrijk 2024</p>
+          </li>
+      </ul>
+      <ul class="column column-reverse">
+        <li><img src="{{customField.ImageUrl[8]}}" alt="">
+            <p>Flowers 2022</p>
+        </li>
+        <li><img src="{{customField.ImageUrl[9]}}" alt="">
+            <p>Volleyball bros 2022</p>
+        </li>
+        <li><img src="{{customField.ImageUrl[10]}}" alt="">
+            <p>Karten 2022</p>
+        </li>
+        <li><img src="{{customField.ImageUrl[11]}}" alt="">
+            <p >Le-ann 2023</p>
+        </li>
+    </ul>
+    
+    </section>
+  
+    <section class="doelen">
+    <h1 class="doelen-titel">Wat zijn mijn hobbies?</h1>
+    <ul>
+      <li>
+        <div class="doelen-img-container">
+          <img src="{{customField.hobbiesImageUrl[0]}}" alt="">
+          <img src="{{customField.hobbiesImageUrl[1]}}" alt="">
+       </div> 
+       <div class="doel-content">
+        <h1>Volleybal</h1>
+        <p>Ik speel nu al 4 jaren volleybal en ben een buiten aanvaller. Als buitenaanvaller ben je verantwoordelijk voor de hoofd aanval en voor de hoofd verdediging. Samen met mijn team willen wij een keer kampioenschap behalen. Ik zie veel vooruitgang binnen de team.</p>
+       </div>
+     </li>
+     <li>
+      <div class="doelen-img-container">
+        <img src="{{customField.hobbiesImageUrl[2]}}" alt="">
+        <img src="{{customField.hobbiesImageUrl[3]}}" alt="">
+     </div> 
+     <div class="doel-content">
+      <h1>League of legends</h1>
+      <p>League of Legends.. Een spel die ik jaren heb kunnen spelen. Naar mijn mening is dit wel een van de beste games ontwikkeld omdat het een goede dopamine kick kan geven. Verslavend en slecht voor het leven, maar wel heel leuk.</p>
+     </div>
+    </li>
+    <li>
+      <div class="doelen-img-container">
+        <img src="{{customField.hobbiesImageUrl[4]}}" alt="">
+        <img src="{{customField.hobbiesImageUrl[5]}}" alt="">
+    </div> 
+    <div class="doel-content">
+      <h1>Spelletjes avond</h1>
+      <p  id="doelen">Samen met mijn vrienden plannen wij elke vrijdag een spelletjes avond. Wij spelen dan de hele avond bordspellen of kaartspelletjes. Een beetje socializen en niet isoleren. Mijn favoriete bordspellen zijn Unstable unicorns, Rummikub en Catan.</p>
+    </div>
+    </li>
+    </ul>
+  </section>
+  <!-- BRON stacking cards https://www.youtube.com/watch?v=Ea86A_2g8pQ&list=PL9PsgOMWUaZ21A3Guxzka44NSEA66FJYn&index=11 -->
+    <section class="hobbies">
+      <h1 class="hobbies-titel">Wat zijn mijn doelen?</h1>
+        <article id="hobby-1" class="hobby">
+          <ul class="hobby-wrapper">
+            <li class="hobby-image-container">
+              <img src="{{customField.doelImageUrl[0]}}" alt="" />
+            </li>
+            <li class="hobby-content-wrapper">
+              <h1>Een passie vinden in Webdesign/development</h1>
+              <p>
+                Graag wil ik een dagelijkse routine creeëren waarin webdevelopment oftewel coderen in mijn routine zit. Coderen vind ik zeker wel leuk maar ik zie er nog geen toekomst in. 
+                </p><p> tijdens deze minor vind ik hierin mijn toekomst en kan ik mijn carriére beginnen als web developer.
+              </p>
+          </li>
+          </ul>
+        </article>
+        <article id="hobby-2" class="hobby">
+          <ul class="hobby-wrapper">
+            <li class="hobby-image-container">
+              <img src="{{customField.doelImageUrl[1]}}" alt="" />
+            </li>
+            <li class="hobby-content-wrapper">
+              <h1>Leren animeren</h1>
+              <p>
+                De toekomst van reclames maken en mensen lokken naar je website zal zeker animaties worden. Een coole animatie kan als kunst gezien worden. 
+                </p><p>Een website ziet er naar mijn mening ook wel professioneler uit met animaties en voor de minder leuke mensen kunnen de animaties altijd uitgezet worden.
+              </p>
+          </li>
+          </ul>
+        </article>
+        <article id="hobby-3" class="hobby">
+          <ul class="hobby-wrapper">
+            <li class="hobby-image-container">
+              <img src="{{customField.doelImageUrl[2]}}" alt="" />
+            </li>
+            <li class="hobby-content-wrapper">
+              <h1>Niet meer bang zijn voor backend</h1>
+              <p>
+                Backend vind ik persoonlijk nogal eng omdat er met veel rekening mee gehouden moet worden. 
+                De taal vind ik nogal verwarrend, misschien omdat ik verkeerde leeraren heb gehad hiervoor. 
+                </p><p id="weekly">Ik heb vertrouwen erin dat samen met Sanne en Vasilis ik dit doel ga behalen.
+              </p>
+          </li>
+          </ul>
+        </article>
+      </section>
+      <section class="opdrachten">
+        <article class="opdracht opdracht-1">
+          <h1>Week 1</h1>
+          <ul class="opdr-1-container">
+            <li class="opdr-1-tekst-1-container">
+              <h1>{{data.name}}</h1>
+              <img src="{{data.avatar}}" alt="{{data.name}}">
+              <p>"{{data.nickname}}"</p>
+              <input type="date" value="{{data.birthdate}}">
+              <p>{{data.bio}}</p>
+            </li>
+            <li class="opdr-1-tekst-2-container">
+              <h2>Een lijst vol met mijn favoriete dingetjes</h2>
+              <ul class="opdr-1-tekst-2-tekst-container">
+                <li>kleur: <input type="color" value="{{data.fav_color}}"></li>
+                <li>property: {{data.fav_property}}</li>
+                <li>tag: {{data.fav_tag}}</li>
+                <li>attribute: {{data.fav_attribute}}</li>
+                <li>feature: {{data.fav_feature}}</li>
+                <li>eten: {{data.fav_kitchen}}</li>
+                <li>boeken genre: {{data.fav_book_genre}}</li>
+                <li>vakantie bestemming: {{data.fav_country}}</li>
+                <li>Wanneer heb ik het meeste energie? {{data.most_energy}}</li>
+                <li>koffie: {{data.fav_coffee}}</li>
+              </ul>
+            </li>
+          </ul>
+        </article>
+      </section>
+    </main>
+  </template>
+
+  <div id="result"><p>loading...</p></div>
+
+  <script src="js/script.js" type="module"></script>
+  <!-- <script src="js/scripts.js"></script> -->
+</body>
+=========
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap"
         rel="stylesheet">
@@ -585,7 +773,7 @@
         }
 
         header:has(#rocketbutton:checked) .countdown {
-            animation: --countdown-text 0.5s ease-in 12 alternate 6s;
+            animation: --countdown-text 0.5s ease-in 12 alternate 12s;
 
         }
 
@@ -594,7 +782,6 @@
         }
 
         .number {
-            color: white;
             &::after {
                 content: '';
                 display: flex;
@@ -875,7 +1062,7 @@
             }
 
             100% {
-                content: 'Lift off!!';
+                content: 'Blast off!!';
                 font-size: clamp(1rem, 44vw, 25rem);
                 text-align: center;
             }
@@ -911,14 +1098,12 @@
             justify-content: space-between;
             padding: 1rem;
             height: 4rem;
-            background: #0d111b;
+            background: black;
             align-items: center;
             position: fixed;
             width: 100%;
             top: 0;
             z-index: 10;
-            box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
-        
 
             a {
                 text-decoration: none;
@@ -941,16 +1126,26 @@
 
         }
 
+        #carousel-1:target {
+            outline: 2px solid red;
+        }
+
+        #carousel-2:target {
+            outline: 2px solid blue;
+        }
+
+        #carousel-3:target {
+            outline: 2px solid green;
+        }
+
         footer {
             width: 100%;
             display: grid;
             grid-template-rows: auto 1fr;
             padding: 0.2rem 1rem;
-            background: #0d111b;
+            background: black;
             position: fixed;
             bottom: 0;
-            box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
-        
 
             &:has(#footer-menu:checked) {
                 gap: 1rem;
@@ -986,16 +1181,6 @@
             overflow-x: auto;
             white-space: nowrap;
             display: flex;
-        }
-
-        #carousel::-webkit-scrollbar {
-            display: none;
-        }
-
-        /* Hide scrollbar for IE, Edge and Firefox */
-        #carousel {
-        -ms-overflow-style: none;  /* IE and Edge */
-        scrollbar-width: none;  /* Firefox */
         }
 
         #carousel.vertical {
@@ -1041,7 +1226,7 @@
         #carousel {
             position: relative;
             width: 100%;
-            height: 101%;
+            height: 100%;
         }
 
         #carousel>div {
@@ -1052,7 +1237,7 @@
             overflow-y: scroll;
         }
 
-        #carousel-3 {
+        #carousel-1 {
             background: radial-gradient(ellipse at bottom, #0d1d31 0%, #0c0d13 100%);
             padding: 1rem;
             display: grid;
@@ -1070,7 +1255,7 @@
                 display: flex;
                 flex-direction: column;
                 gap: 1rem;
-                padding: 1rem;
+                padding: 1rem 1rem 1rem 0;
 
 
                 >li:first-of-type {
@@ -1297,22 +1482,12 @@
                 .header-left-portfolio {
                     width: 100%;
                     height: 16rem;
+                    background: linear-gradient(to bottom, hsl(270, 50%, 40%) 65%, transparent 0);
                     position: relative;
                     border-radius: 1rem 1rem 0 0;
 
-                    .top-img{
-                    width: 100%;
-                    height: 65%;
-                    position: absolute;
-                    border-radius: 1rem 1rem 0 0;
-                    top: 0;
-                    background: linear-gradient(90deg,rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 45%, rgba(0, 212, 255, 1) 100%);;
-                }
-
-
                     img {
-                        width: clamp(6rem, 35%, 10rem);
-                        transform-origin: center;
+                        width: 10rem;
                         border-radius: 50%;
                         border: solid #0d1623;
                         position: absolute;
@@ -1334,7 +1509,7 @@
             .right-summary {
                 display: flex;
                 flex-direction: column;
-                padding: 2.5rem;
+                padding: 1rem;
                 border: solid 2px rgb(90, 90, 90);
                 border-radius: 1rem;
                 transition: .5s;
@@ -1342,7 +1517,7 @@
 
                 &:hover {
                     border: solid 2px transparent;
-                    /* box-shadow: 0 0 8px 2px hsl(216, 78%, 61%); */
+                    box-shadow: 0 0 8px 2px hsl(216, 78%, 61%);
                     transition: .5s;
                     background: beige;
                     color: black;
@@ -1359,7 +1534,7 @@
                 }
 
                 ol {
-                    padding: 2rem;
+                    padding: 1rem;
                 }
 
                 h3 {
@@ -1391,86 +1566,7 @@
                 }
             }
 
-            .left-portfolio{
 
-                ul{
-                    display: flex;
-                    flex-direction: column;
-                    gap: 1rem;
-                    padding: 1rem;
-
-                    li:nth-of-type(4){
-                        font-size: .8rem;
-
-                        &:hover{
-                            p{
-                                text-decoration: underline;
-                            }
-                        }
-                    }
-
-                    li:nth-of-type(5){
-                        display: flex;
-                        flex-direction: column;
-                        gap: 1rem;
-                        padding: 1rem;
-                        border: solid 1px gray;
-
-                        p:nth-of-type(1){
-                            font-size: 1.2rem;
-                            font-weight: bold;
-                            text-decoration: underline;
-                        }
-
-                        p{
-                            color: rgb(255, 255, 255); 
-                            transition: .2s;
-                        }
-
-                        &:hover{
-                            box-shadow: 0 0 8px 2px hsl(216, 78%, 61%);
-                            p{
-                                color: var(--text-color);
-                                transition: .2s;
-                            }
-                        }
-                    }
-
-                    li a{
-                        color: var(--text-color);
-
-                    }
-
-                    li:not(:has(p)){
-                        display: flex;
-                        flex-wrap: wrap;
-                        gap: 1rem;
-                        
-                        a{
-                            border-radius: 5px;
-                            padding: .5rem 1rem;
-                            background: #272a37;
-                            text-decoration: none;
-                            border: solid 2px gray;
-                            transition: .2s;
-
-                            &:hover{
-                                box-shadow: 0 0 8px 2px hsl(216, 78%, 61%);
-                                transition: .2s;
-                            }
-                        }
-                    }
-                }
-
-                .WN-datum{
-                    display: flex;
-                    flex-direction: row;
-                    justify-content: space-between;
-                    font-size: .8rem;
-                }
-
-
-            }
 
         }
 
@@ -1478,39 +1574,16 @@
             background-color: #5ab92c;
         }
 
-        #carousel-1 {
+        #carousel-3 {
             background-color: #226de2;
-        }
-
-        header{
-            &:has(#skip:checked){
-                display: none;
-            }
-
-            &:has(#rocketbutton:checked) > label {
-                display: none;
-            }
-
-            > label{
-                position: absolute;
-                bottom: 2rem;
-                padding: 1rem 2rem;
-                background: #0d1d31;
-                color: white;
-                border-radius: 1rem;
-                cursor: pointer;
-                z-index: 10;
-            }
         }
     </style>
 </head>
 
 <body>
 
-    <header>
-        <label for="skip"> skip intro
-            <input type="radio" id="skip" name="skip" hidden>
-        </label>
+    <!-- <header>
+
         <div class="countdown">
             <span class="number"></span>
         </div>
@@ -1519,7 +1592,7 @@
                 <li class="rocketbutton">
                     <label for="rocketbutton" ><div class="rocket-text-container"><ul>
                         <li class="rtc-li"><p>Welkom</p></li>
-                        <li class="rtc-li"><p>Click to lift off!</p></li>
+                        <li class="rtc-li"><p>Click to blast off!</p></li>
                     </ul></div> <div class="rocketWindow"></div><input type="checkbox" id="rocketbutton" hidden></label></li>
                 <li class="rocketBottom"></li>
                 <ul class="rocketWings-left-container">
@@ -1547,21 +1620,19 @@
         </div>
         
         <div class="gas"></div>
-    </header>
+    </header> -->
 
     <nav>
         <img src="images/Eltonicon.png" alt="logo">
         <ul>
-            <li><a href="#carousel-1">Over mij</a></li>
-            <li><a href="#carousel-2">Mijn Werk</a></li>
-            <li><a href="#carousel-3">WeeklyNerd</a></li>
+            <li><a href="#carousel-1">Home</a></li>
+            <li><a href="#carousel-2">Over ons</a></li>
+            <li><a href="#carousel-3">Contact</a></li>
         </ul>
     </nav>
     <main>
         <div id="carousel" class="snap">
-            <div id="carousel-1">Item1</div>
-            <div id="carousel-2">Item 2</div>
-            <div id="carousel-3">
+            <div id="carousel-1">
                 <ul>
                     <li><label for="Hackaton"><input type="radio" name="WN-menu" id="Hackaton" hidden checked>
                             <p>Weekly Nerd</p>
@@ -1596,7 +1667,7 @@
                                 alt="Peter Paul Koch">
                         </label></li>
                     <li><label for="Rosa"><input type="radio" name="WN-menu" id="Rosa" hidden>
-                            <p>Rosa Schuurmans</p><img src="images/weeklyNerds/rosa_schuurmans.webp" alt="Rosa Schuurmans">
+                            <p>Rosa</p><img src="images/weeklyNerds/placeholder-image.jpg" alt="Rosa">
                         </label></li>
                     <li><label for="Roel"><input type="radio" name="WN-menu" id="Roel" hidden>
                             <p>Roel Nieskens</p><img src="images/weeklyNerds/roel_nieskens.webp" alt="Roel Nieskens">
@@ -1610,18 +1681,13 @@
                             <details>
                                 <summary>Wat van de Weekly Nerd sprekers* ga je meenemen, waarmee wil je gaan oefenen...
                                 </summary>
-                                <p>Ik wil gebruik maken van de GSAP library en zijn animaties. De reden waarom ik mij hierin wil verdiepen is omdat persoonlijk
-                                    vind ik spelen met animaties heel tof en leuk en het maakt je website ook wel wat proffesioneler. Alsof je al meer kan dan de gewone mens.
-                                    Bovendien kan je ook heel creatief zijn het animeren van elementen.
-                                </p>
+                                <p>Ik ga gebruik maken van de GSAP library, dit omdat werken met animaties altijd leuk
+                                    is en het maakt ook je website wat proffesioneler.</p>
+                                <p>Tijdens mijn volgende project wil ik ook de methodes van Jeremy Keith toepassen.
+                                    Bijvoorbeeld de knoppen declaratief houden, dus alleen javascript toevoegen voor
+                                    gedrag.</p>
                                 <p>Ook wil ik de methodes meenemen van Kilian Valkhof die praat over de "Rule of least
-                                    power" en zijn Geavanceerde css technieken. En ook waar Jeremy Keith over praat om knoppen declaratief te houden en javascript toepassen voor gedrag alleen.
-                                    Dus eerst simpel beginnen met alle content plaatsen in de HTML en vervolgens 
-                                    met css de content een mooie styling geven. En voor de functionaliteiten voeg ik aan het einde nog javascript toe om het tot een compleet 
-                                    projectje te maken.</p>
-                                <p>En tot slot wil ik mij ook meer gaan verdiepen in toegankelijkheid. Persoonlijk vind ik het leuk om met kleuren te spelen en te testen welke elementen meer focus krijgen en welke niet bijvoorbeeld.
-                                    Ook is het natuurlijk veel efficienter om meteen voor toegankelijkheid te designen ook.
-                                </p>
+                                    power" en zijn Geavanceerde css technieken.</p>
                             </details>
                             <details>
                                 <summary>De uitkomst van de Hackaton met daarbij jouw inbreng en nieuwe inzichten.
@@ -1802,22 +1868,18 @@ animation-delay:  calc(var(--index) * .5s);               animation-delay: calc(
                                     beoordeling. Goed om persoonlijke leerdoelen op verschillende vlakken te kiezen:
                                     bijv. inhoud, samenwerken, tooling, lef ... of andere competenties. Geef ook aan hoe
                                     je van plan bent om aan elk leerdoel te werken tijdens de meesterproef.</summary>
-                                    
-                                <p>
-                                    Ik wil meer gebruik maken van een pen en papier. Ik design wel in code, maar ik merk
+                                <p>Ik wil meer gebruik maken van een pen en papier. Ik design wel in code, maar ik merk
                                     dat wanneer ik een voorbeeld al heb dat het coderen veel sneller gaat.
                                     Want het designen in code laat mij denken aan twee onderwerpen tegelijkertijd. Wat
                                     ik wil en wat ik moet maken. Mijn eerste leerdoel is meer tekenen.</p>
-                                <p>
-                                    Ik maak geen gebruik van de :root en variabelen in CSS. Ik wil namelijk graag te snel
+                                <p>Ik maak geen gebruik van de :root en variabelen in CSS. Ik wil namelijk graag te snel
                                     verder en dan geef ik een random kleur. Maar als ik eerst begin
                                     met het maken van de :root en het onderzoeken naar kleuren die ik wil gebruiken, dan
                                     scheelt dit mij ook weer wat tijd aan het eind van mijn project.
                                     Dit zou mijn projecten ook wat meer toegankelijker maken voor anderen en ook voor
                                     mezelf.
                                 </p>
-                                <p>
-                                    Ik wil ook meer aandacht geven aan de structuur en opbouw van mijn documenten. Naar
+                                <p>Ik wil ook meer aandacht geven aan de structuur en opbouw van mijn documenten. Naar
                                     mijn mening vind ik het lekkerder om alles in 1 html te zetten, ik hoef dan alleen
                                     ctrl f te klikken
                                     en dan vind ik al wat ik zoek. Terwijl met meerdere documenten zoek ik toch wat
@@ -1826,18 +1888,6 @@ animation-delay:  calc(var(--index) * .5s);               animation-delay: calc(
                                     weer meer toegankelijker voor anderen en ook wel voor mezelf als ik dit juist
                                     aanpak.
                                 </p>
-
-                                <p>
-                                    Voor mijn laatste leerdoel wil ik de focus leggen op samenwerken in een team. 
-                                    Wanneer een teamgenoot met een ontwerp komt dat ik niet mooi vind, vind ik het lastig 
-                                    om daar eerlijk iets over te zeggen. Ik weet dat hij of zij er veel moeite in heeft gestoken, 
-                                    en het is dan natuurlijk niet leuk om dan negatieve feedback te horen. Daarom wil ik leren hoe ik op een 
-                                    constructieve manier feedback kan geven, zodat ik tips kan delen zonder dat het overkomt 
-                                    alsof ik hun werk afkraak. Ik wil dat mijn teamgenoten zich gerespecteerd voelen en open 
-                                    blijven staan voor verbetering.
-                                </p>
-
-                                <p></p>
                             </details>
                         </li>
                     </ul>
@@ -1846,32 +1896,18 @@ animation-delay:  calc(var(--index) * .5s);               animation-delay: calc(
 
                 <article class="cassie">
                     <div class="left-portfolio">
-                        <div class="header-left-portfolio">
-                            <div class="top-img"></div>
-                            <img src="images/weeklyNerds/cassie_evans.webp"
+                        <div class="header-left-portfolio"><img src="images/weeklyNerds/cassie_evans.webp"
                                 alt="cassie evans">
                         </div>
                         <ul>
-                            <li class="WN-datum">
-                                <p>Guest Teacher</p>
-                                <p>07 Maart 2025</p>
-                            </li>
-                            <li><h2>Cassie Evans</h2></li>
                             <li>
-                                <p>"GSAP fairy Godmother"</p>
+                                <p>"GSAP fairy codemother"</p>
                             </li>
                             <li>
                                 <p> Lewes, Engeland, Verenigd Koninkrijk </p>
                             </li>
-                            <li>
-                                <p>Info</p>
-                                <p>Creative developer with a background in design. Specialising in SVG and UI interactions. </p>
-                                <p>2020 Women in Software Power List - Speaker. Educator.</p>
-                                <p>Organiser of Brighton Generator, a Brighton based creative coding meetup.</p>
-                            </li>
-                            <li><h4>Links</h4></li>
-                            <li>
-                                <a href="https://www.cassie.codes/"> cassie blogs </a><a href="https://gsap.com/">gsap</a></li>
+                            <li><a href="https://www.cassie.codes/"> cassie blogs </a></li>
+                            <li><a href="https://gsap.com/">gsap</a></li>
                         </ul>
 
                     </div>
@@ -1967,31 +2003,18 @@ animation-delay:  calc(var(--index) * .5s);               animation-delay: calc(
 
                 <article class="erik">
                     <div class="left-portfolio">
-                        <div class="header-left-portfolio">
-                            <div class="top-img"></div>
-                            <img src="images/weeklyNerds/erik_kroes.webp"
-                                alt="Erik Kroes">
+                        <div class="header-left-portfolio"><img src="images/weeklyNerds/erik_kroes.webp"
+                                alt="cassie evans">
                         </div>
                         <ul>
-                            <li class="WN-datum">
-                                <p>Guest Teacher</p>
-                                <p>28 Maart 2025</p>
-                            </li>
-                            <li><h2>Erik Kroes</h2></li>
+                            <li>Erik</li>
                             <li>
                                 <p>🤓 Strategic consultant: Accessibility, Inclusive Design & Design Systems | 🧰
-                                    Organizer @ Idea11y</p>     
+                                    Organizer @ Idea11y</p>
                             </li>
                             <li>
                                 <p> Amsterdam Area </p>
                             </li>
-                            <li>
-                                <p>Info</p>
-                                <p>I am at my best when I can sink my teeth into a challenge, get the most out of people and situations, and create structure where there was none.</p>
-                                <p>Trusted by:
-                                    ING, Alzheimer's Society, Achmea/Centraal Beheer, IKEA, MetaMetrics, Zurich and WeTransfer.</p>
-                            </li>
-                            <li><h4>Links</h4></li>
                             <li><a href="https://www.erikkroes.nl"> Erik kroes </a></li>
                         </ul>
 
@@ -2097,32 +2120,19 @@ animation-delay:  calc(var(--index) * .5s);               animation-delay: calc(
 
                 <article class="jeremy">
                     <div class="left-portfolio">
-                        <div class="header-left-portfolio">
-                            <div class="top-img"></div>
-                            <img src="images/weeklyNerds/jeremy_keith.webp"
-                                alt="Jeremy Keith">
+                        <div class="header-left-portfolio"><img src="images/weeklyNerds/jeremy_keith.webp"
+                                alt="cassie evans">
                         </div>
                         <ul>
-                            <li class="WN-datum">
-                                <p>Guest Teacher</p>
-                                <p>12 Maart 2025</p>
-                            </li>
-                            <li><h2>Jeremy Keith</h2></li>
+                            <li>Jeremy Keith</li>
                             <li>
-                                <p>¯\_(ツ)_/¯</p>     
+                                <p>🤓 Strategic consultant: Accessibility, Inclusive Design & Design Systems | 🧰
+                                    Organizer @ Idea11y</p>
                             </li>
                             <li>
-                                <p>    Brighton en Hove en omgeving   </p>
+                                <p> Amsterdam Area </p>
                             </li>
-                            <li>
-                                <p>Info</p>
-                                <p>Jeremy Keith is a mediocre middle-aged white man from Ireland, living in Brighton, England. He works with the splendid design transformation consultancy, Clearleft.</p>
-                                <p>You may know Jeremy from such books as DOM Scripting, Bulletproof Ajax, and HTML5 For Web Designers, Resilient Web Design, and most recently, Going Offline. He’s the curator of the UX London conference and he also hosts the Clearleft podcast.</p>
-                                <p>
-                                    Jeremy spends most of his time goofing off on the internet and documenting his time-wasting on adactio.com, where he has been writing for more than twenty years. He also plays traditional Irish music on the mandolin, and slide bouzouki in the rock band, Salter Cane.</p>
-                            </li>
-                            <li><h4>Links</h4></li>
-                            <li><a href="https://adactio.com"> Jeremy Keith </a></li>
+                            <li><a href="https://www.jeremykeith.com"> Jeremy keith </a></li>
                         </ul>
 
                     </div>
@@ -2225,31 +2235,19 @@ animation-delay:  calc(var(--index) * .5s);               animation-delay: calc(
 
                 <article class="julia">
                     <div class="left-portfolio">
-                        <div class="header-left-portfolio">
-                            <div class="top-img"></div>
-                            <img src="images/weeklyNerds/julia_miocene.webp"
-                                alt="Julia Miocene">
+                        <div class="header-left-portfolio"><img src="images/weeklyNerds/julia_miocene.webp"
+                                alt="cassie evans">
                         </div>
                         <ul>
-                            <li class="WN-datum">
-                                <p>Weekly Nerd</p>
-                                <p>17 Maart 2025</p>
-                            </li>
-                            <li><h2>Julia Miocene</h2></li>
+                            <li>Julia Miocene</li>
                             <li>
-                                <p>Product Designer | UX Engineer | Google Developer Expert on Web | Women TechMakers Ambassador | Speaker | Podcaster | Quokkas and Cats lover</p>     
+                                <p>🤓 Strategic consultant: Accessibility, Inclusive Design & Design Systems | 🧰
+                                    Organizer @ Idea11y</p>
                             </li>
                             <li>
-                                <p>   Amsterdam, Noord-Holland, Nederland   </p>
+                                <p> Amsterdam Area </p>
                             </li>
-                            <li>
-                                <p>Info</p>
-                                <p>Hey! I'm making the world better as a Product Designer and crazier as a Pure CSS Animator.
-                                    I am a speaker, I talk about CSS and designing in the browser. I'm a co-owner of a local community, podcaster, and Google Developer Expert on Web</p>
-                            </li>
-                            <li><h4>Links</h4></li>
-                            <li><a href="https://miocene.io"> Julia Miocene io </a>
-                            <a href="https://www.youtube.com/@julia_miocene">Youtube</a></li>
+                            <li><a href="https://www.juliamiocene.com"> Julia miocene </a></li>
                         </ul>
 
                     </div>
@@ -2290,36 +2288,26 @@ animation-delay:  calc(var(--index) * .5s);               animation-delay: calc(
                             <li><p>clip-path, border-radius, gradients → voor complexe vormen en visuele effecten.</p></li>
                             <li><p>Unieke CSS-hacks: zoals driehoeken maken met border, of schaduwen voor diepte.</p></li>
                         </ul>
+
+                        <p class="samenvatting-h1">Haar animatiefilosofie</p>
                     </div>
                 </article>
 
                 <article class="kilian">
                     <div class="left-portfolio">
-                        <div class="header-left-portfolio">
-                            <div class="top-img"></div>
-                            <img src="images/weeklyNerds/kilian_valkhof.webp"
-                                alt="Killian Valkhof">
+                        <div class="header-left-portfolio"><img src="images/weeklyNerds/kilian_valkhof.webp"
+                                alt="cassie evans">
                         </div>
                         <ul>
-                            <li class="WN-datum">
-                                <p>Weekly Nerd</p>
-                                <p>05 Februari 2025</p>
-                            </li>
-                            <li><h2>Killian Valkhof</h2></li>
+                            <li>Kilian</li>
                             <li>
-                                <p>Building Polypane, a better browser for all developers and designers.</p>     
+                                <p>🤓 Strategic consultant: Accessibility, Inclusive Design & Design Systems | 🧰
+                                    Organizer @ Idea11y</p>
                             </li>
                             <li>
-                                <p>   Amsterdam, Noord-Holland, Nederland    </p>
+                                <p> Amsterdam Area </p>
                             </li>
-                            <li>
-                                <p>Info</p>
-                                <p>At Firstversionist, we empower developers, designers and other web workers with powerful software that helps them get work done faster and better. </p>
-                                <p>Polypane helps developers and designers build amazing web experiences twice as fast by offering a browser that integrates great developing, debugging and testing tools and shows sites in multiple viewports at once. More info at <a href="https://polypane.app">https://polypane.app</a></p>
-                                <p>Superposition helps developers and designers kickstart design system efforts by creating design tokens from live websites. More info at <a href="https://superposition.design">https://superposition.design</a></p>
-                            </li>
-                            <li><h4>Links</h4></li>
-                            <li><a href="https://polypane.app/"> Polypane app </a></li>
+                            <li><a href="https://www.kilianvalkhof.com"> Kilian valkhof </a></li>
                         </ul>
 
                     </div>
@@ -2410,139 +2398,44 @@ animation-delay:  calc(var(--index) * .5s);               animation-delay: calc(
 
                 <article class="niels">
                     <div class="left-portfolio">
-                        <div class="header-left-portfolio">
-                            <div class="top-img"></div>
-                            <img src="images/weeklyNerds/niels_leenheer.webp"
-                                alt="Niels Leenheer">
+                        <div class="header-left-portfolio"><img src="images/weeklyNerds/niels_leenheer.webp"
+                                alt="cassie evans">
                         </div>
                         <ul>
-                            <li class="WN-datum">
-                                <p>Weekly Nerd</p>
-                                <p>24 Maart 2025</p>
-                            </li>
-                            <li><h2>Niels Leenheer</h2></li>
+                            <li>Niels</li>
                             <li>
-                                <p>Co-founder and CTO at Salonhub, creator of HTML5test.com and regular speaker about web standards, browsers and IoT</p>     
+                                <p>🤓 Strategic consultant: Accessibility, Inclusive Design & Design Systems | 🧰
+                                    Organizer @ Idea11y</p>
                             </li>
                             <li>
-                                <p>  Groningen en omgeving   </p>
+                                <p> Amsterdam Area </p>
                             </li>
-                            <li>
-                                <p>Info</p>
-                                <p>I'm mainly interested in UX design and frontend engineering. 
-                                </p>
-                                <p>I am both experienced with server side PHP scripting and client side JavaScript. I am a HTML and CSS guru. Lately I am also involved in programming applications for Adobe AIR and iPhone webapps.
-                                </p>
-                                <p>Specialties: PHP, Javascript, HTML, CSS, browser quirks, Adobe AIR, iPhone webapps, user interface design, graphic design</p>
-                            </li>
+                            <li><a href="https://www.nielsleenheer.com"> Niels leenheer </a></li>
                         </ul>
 
                     </div>
                     <div class="right-summary">
-                        <h3>Samenvatting – Niels Leenheer: Receipt Printers 101</h3>
-                        <p class="samenvatting-h1"> Waar ging de presentatie over?</p>
-                        <ul>
-                            <li><p>Niels toonde hoe je met moderne webtechnologieën en hardware-API’s (zoals Project Fugu) een volledig functioneel kassasysteem kunt bouwen — <span>direct vanuit de browser</span>.</p></li>
-                        </ul>
-                        <p class="samenvatting-h1">Wat zijn receipt printers?</p>
-                        <ul>
-                            <li>
-                                <p class="samenvatting-h2">Kassabonprinters, vaak aangesloten via:</p>
-                                <ul>
-                                    <li><p>USB</p></li>
-                                    <li><p>Seriële poort</p></li>
-                                    <li><p>Netwerk</p></li>
-                                    <li><p>Bluetooth</p></li>
-                                </ul>
-                            </li>
-                            <li>
-                                <p class="samenvatting-h2">Twee hoofdprotocollen:</p>
-                                <ul>
-                                    <li><p><span>ESC/POS</span> (van Epson): tekst via ASCII + escape-codes voor opmaak.</p></li>
-                                    <li><p><span>StarPRNT</span> (van Star): vergelijkbaar, maar niet compatibel met ESC/POS.</p></li>
-                                </ul>
-                            </li>
-                        </ul>
-
-                        <p class="samenvatting-h1">Niels’ eigen tools</p>
-                        <ul>
-                            <li><p>ReceiptPrinterEncoder → Open source library die ESC/POS of StarPRNT-commando’s genereert.</p></li>
-                            <li><p>Ondersteunt: tekst, stijlen, tabellen, barcodes, QR-codes, afbeeldingen.</p></li>
-                            <li><p>Combineert eerdere tools: EscPosEncoder en StarPrntEncoder.</p></li>
-                        </ul>
-
-                        <p class="samenvatting-h1">Printen via de browser</p>
-                        <ul>
-                            <li><p><span>WebUSB:</span> voor direct verbinden via USB. (Beperkt op Windows.)</p></li>
-                            <li><p><span>WebSerial:</span> voor seriële verbindingen of virtuele COM-poorten.</p></li>
-                            <li><p><span>WebBluetooth:</span> voor BLE-apparaten (beperkt inzetbaar).</p></li>
-                            <li><p>Alleen mogelijk in Chromium-gebaseerde browsers.</p></li>
-                            <li><p><span>Beveiligingsbeperkingen:</span> netwerkprinters niet direct toegankelijk.</p></li>
-                        </ul>
-
-                        <p class="samenvatting-h1">Server-side printoplossingen (Node.js)</p>
-                        <ul>
-                            <li><p><span>NetworkReceiptPrinter:</span> stuurt commando’s via netwerk.</p></li>
-                            <li><p><span>SystemReceiptPrinter:</span> gebruikt lokaal geïnstalleerde printerdrivers.</p></li>
-                        </ul>
-
-                        <p class="samenvatting-h1">Bouwstenen voor kassasystemen</p>
-                        <ul>
-                            <li><p><span>Project Fugu (Google):</span> → Breidt de mogelijkheden van webapps uit met toegang tot hardware.</p></li>
-                            <li>
-                                <p><span>Voorbeeldproject: Salon Hub</span> → Kassasysteem & afsprakentool gebouwd als:</p>
-                                <ul>
-                                    <li><p>Electron-app (desktop)</p></li>
-                                    <li><p>PWA (tablet- en mobielvriendelijk)</p></li>
-                                    <li><p>Hardwarekoppelingen via WebUSB, WebSerial, enz.</p></li>
-                                </ul>
-                            </li>
-                        </ul>
-
-                        <p class="samenvatting-h1">Andere randapparatuur</p>
-                        <ul>
-                            <li><p><span>Klantendisplays:</span> gebruiken ook ESC/POS, aanstuurbaar via WebSerial.</p></li>
-                            <li><p><span>Barcodescanners:</span> gedragen zich als toetsenbord (typen + enter).</p></li>
-                            <li><p><span>QR-code ondersteuning:</span> meestal voor URL’s, maar vaak genegeerd door kassa's.</p></li>
-                        </ul>
-
-                      <p class="samenvatting-h1">Belangrijke inzichten</p>
-                        <ul>
-                            <li><p>Bonprinters zijn complex door verschillende “talen” en verouderde protocollen.</p></li>
-                            <li><p>Unicode is tegenwoordig standaard, maar veel printers werken nog met ASCII.</p></li>
-                            <li><p>Dankzij tools als die van Niels hoef je niet zelf het wiel opnieuw uit te vinden.</p></li>
-                            <li><p>De combinatie van webtechnologie + hardwaretoegang maakt het mogelijk om moderne, modulaire kassasystemen te bouwen — direct in de browser.</p></li>
-                        </ul>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non ipsam nesciunt a, natus
+                            exercitationem repudiandae hic, rerum maxime facilis cumque ad doloremque? Tempora vitae
+                            neque vel odio autem ipsa aspernatur.</p>
                     </div>
                 </article>
 
                 <article class="nienke">
                     <div class="left-portfolio">
-                        <div class="header-left-portfolio">
-                            <div class="top-img"></div>
-                            <img src="images/weeklyNerds/nienke_de_keijzer.webp"
-                                alt="Nienke de Keijzer">
+                        <div class="header-left-portfolio"><img src="images/weeklyNerds/nienke_de_keijzer.webp"
+                                alt="cassie evans">
                         </div>
                         <ul>
-                            <li class="WN-datum">
-                                <p>Weekly Nerd</p>
-                                <p>28 Maart 2025</p>
-                            </li>
-                            <li><h2>Nienke de Keijzer</h2></li>
+                            <li>Nienke</li>
                             <li>
-                                <p>UX designer bij GVB</p>     
+                                <p>🤓 Strategic consultant: Accessibility, Inclusive Design & Design Systems | 🧰
+                                    Organizer @ Idea11y</p>
                             </li>
                             <li>
-                                <p>  Nederland   </p>
+                                <p> Amsterdam Area </p>
                             </li>
-                            <li>
-                                <p>Info</p>
-                                <p>Full-time UX designer bij GVB met affiniteit voor digitale toegankelijkheid</p>
-                                <p>Teamleider & leiding van scouts 11-15 jaar bij scouting. 
-                                    Altijd hard aan het werk voor de toekomst van nu met een nuchtere losse blik op het leven </p>
-                            </li>
-                            <li><h4>Links</h4></li>
-                            <li><a href="https://nienke.net/"> Nienke Net </a></li>
+                            <li><a href="https://www.nienkede.com"> Nienke de keijzer </a></li>
                         </ul>
 
                     </div>
@@ -2619,33 +2512,22 @@ animation-delay:  calc(var(--index) * .5s);               animation-delay: calc(
 
                 <article class="nils">
                     <div class="left-portfolio">
-                        <div class="header-left-portfolio">
-                            <div class="top-img"></div>
-                            <img src="images/weeklyNerds/nils_binder.webp"
+                        <div class="header-left-portfolio"><img src="images/weeklyNerds/nils_binder.webp"
                                 alt="Nils Binder">
                         </div>
                         <ul>
-                            <li class="WN-datum">
-                                <p>Guest Teacher</p>
-                                <p>10 Maart 2025</p>
-                            </li>
-                            <li><h2>Nils Binder</h2></li>
+                            <li>Nils Binder</li>
                             <li>
-                                <p>Head of Web Development @9elements | Advocate for CSS & Accessibility | Co-Founder, CSS Café Meetup</p>     
+                                <p>🤓 Strategic consultant: Accessibility, Inclusive Design & Design Systems | 🧰
+                                    Organizer @ Idea11y</p>
                             </li>
                             <li>
-                                <p>  Bochum, Noordrijn-Westfalen, Duitsland   </p>
+                                <p> Amsterdam Area </p>
                             </li>
-                            <li>
-                                <p>Info</p>
-                                <p>As Head of Web Development at 9elements, I’m dedicated to bridging the gap between design and development. With a career that began in 1999 as a web designer, I’ve evolved through various roles—from Art Director to Lead Designer/Frontend Developer, and now, Frontend Designer—while always staying passionate about creating elegant, accessible (A11y), and user-centered digital experiences.</p>
-                                <p>I’ve worked with clients ranging from innovative startups to global corporations, bringing a focus on clean, responsive CSS and improving communication between designers and developers.</p>
-                            </li>
-                            <li><h4>Links</h4></li>
-                            <li><a href="https://www.css.cafe/"> CSS Cafe </a></li>
+                            <li><a href="https://www.nilsbinder.com"> Nils binder </a></li>
                         </ul>
-                    </div>
 
+                    </div>
                     <div class="right-summary">
                         <h3>Samenvatting – Nils Binder: Design for Flexibility</h3>
 
@@ -2715,33 +2597,20 @@ animation-delay:  calc(var(--index) * .5s);               animation-delay: calc(
 
                 <article class="peter">
                     <div class="left-portfolio">
-                        <div class="header-left-portfolio">
-                            <div class="top-img"></div>
-                            <img src="images/weeklyNerds/peter_paul_koch.webp"
-                                alt="Peter Paul Koch">
+                        <div class="header-left-portfolio"><img src="images/weeklyNerds/peter_paul_koch.webp"
+                                alt="cassie evans">
                         </div>
                         <ul>
-                            <li class="WN-datum">
-                                <p>Weekly Nerd</p>
-                                <p>26 Februari 2025</p>
-                            </li>
-                            <li><h2>Peter-Paul Koch</h2></li>
+                            <li>Peter-Paul Koch</li>
                             <li>
-                                <p>Consultant and browser expert, worked with Vodafone, Microsoft, Google, Akamai, Samsung, and Intel.</p>     
+                                <p>🤓 Strategic consultant: Accessibility, Inclusive Design & Design Systems | 🧰
+                                    Organizer @ Idea11y</p>
                             </li>
                             <li>
-                                <p> Nederland  </p>
+                                <p> Amsterdam Area </p>
                             </li>
-                            <li>
-                                <p>Info</p>
-                                <p>Peter-Paul Koch is a freelance front-end consultant, agent, and trainer in Amsterdam, the Netherlands. He did a lot of browser compatibility research, organises the CSS Day and performance.now() conferences, and does some developer advocacy work.</p>
-                                <p>On the Web he is universally known as ppk.</p>
-                                <p>He specialises in HTML, CSS, JavaScript, browser compatibility, and talking to web developers. He’s also a technical writer.</p>
-                            </li>
-                            <li><h4>Links</h4></li>
-                            <li><a href="https://quirksmode.org/about"> QuirksMode </a></li>
+                            <li><a href="https://www.peterpaulkoch.com"> Peter Paul Koch </a></li>
                         </ul>
-                        
 
                     </div>
                     <div class="right-summary peter-sammenvatting">
@@ -2881,26 +2750,11 @@ animation-delay:  calc(var(--index) * .5s);               animation-delay: calc(
 
                 <article class="rosa">
                     <div class="left-portfolio">
-                        <div class="header-left-portfolio">
-                            <div class="top-img"></div>
-                            <img src="images/weeklyNerds/rosa_schuurmans.webp"
-                                alt="Rosa Schuurmans">
+                        <div class="header-left-portfolio"><img src="images/weeklyNerds/placeholder-image.jpg"
+                                alt="rosa">
                         </div>
+                        <h2>Rosa</h2>
 
-                        <ul>
-                            <li class="WN-datum">
-                                <p>Weekly Nerd</p>
-                                <p>03 April 2025</p>
-                            </li>
-                            <li><h2>Rosa Schuurmans</h2></li>
-                            <li>
-                                <p>Freelance Digital Maker</p>     
-                            </li>
-
-                            <li>
-                                <p> Randstad </p>
-                            </li>
-                        </ul>
                     </div>
                     <div class="right-summary rosa-sammenvatting">
                         <h3>Samenvatting – Rosa (Hackers United / E-waste Enthousiast)</h3>
@@ -2991,20 +2845,19 @@ animation-delay:  calc(var(--index) * .5s);               animation-delay: calc(
 
                 <article class="roel">
                     <div class="left-portfolio">
-                        <div class="header-left-portfolio">
-                            <div class="top-img"></div>
-                            <img src="images/weeklyNerds/roel_nieskens.webp"
+                        <div class="header-left-portfolio"><img src="images/weeklyNerds/roel_nieskens.webp"
                                 alt="Roel Nieskens">
                         </div>
                         <ul>
-                            <li class="WN-datum">
-                                <p>Guest Teacher</p>
-                                <p>03 Maart 2025</p>
+                            <li>Roel Nieskens</li>
+                            <li>
+                                <p>🤓 Strategic consultant: Accessibility, Inclusive Design & Design Systems | 🧰
+                                    Organizer @ Idea11y</p>
                             </li>
-                            <li><h2>Roel Nieskens</h2></li>
                             <li>
                                 <p> Amsterdam Area </p>
                             </li>
+                            <li><a href="https://www.roel_nieskens.com"> Roel Nieskens </a></li>
                         </ul>
 
                     </div>
@@ -3149,6 +3002,8 @@ animation-delay:  calc(var(--index) * .5s);               animation-delay: calc(
                 </article>
 
             </div>
+            <div id="carousel-2">Item 2</div>
+            <div id="carousel-3">Item 3</div>
         </div>
 
 
@@ -3157,187 +3012,20 @@ animation-delay:  calc(var(--index) * .5s);               animation-delay: calc(
         <label for="footer-menu"><input type="checkbox" id="footer-menu" hidden>
             <p>Footer ^</p>
         </label>
->>>>>>> 3006f749832caef8270d7b179298eb90561eecf9
         <ul>
-            <li><p>Communication Multimedia student</p></li>
-            <li><p>Te Hoge school van Amsterdam</p></li>
-        </ul>
-    </section>
-  
-    <section class="overMij">
-      <h1>Hallo, welkom op mijn pagina.</h1>
-      <p>Hier op deze onepager ga je mijn doelen, hobbies en opdrachten vinden van de minor Webdesign&development. Verder vind je ook een fotogalerij waar je een stukje over mezelf ziet.</p>
-  
-      <p> Zelf ben ik een Communication en Multimedia student aan de HvA TTH gebouw. Zelf weet ik nog niet welke kant ik op wil, de design kant of de programmeer kant? allebei vind ik wel leuk en doel erop dat ik een passie hierin kan vinden. Zelf heb ik al wel wat websites gebouwt, maar nog nooit echt uitgebracht. afgeslakte websites dus, maar heel leerzaam geweest.</p>
-        
-      <p id="fotogalerij">Ook speel ik volleybal, ik train 3 dagen in de week waarbij ik 1 wedstrijd wekelijks speel. Samen met mijn team hebben we wel de top 3 gehaald in een pool die best wel hoger is dan ons eigen niveau. Ik ben trots op de team die zo hard zijn gegroeid en ook op mezelf. Volgend seizoen willen wij zeker een klasse hoger spelen en verder vorderen. Een passie voor volleybal heb ik wel zeker!</p>
-  
-      <h2>Fotogalerij</h2>
-    </section>
-    <!-- BRON reverse scroll https://scroll-driven-animations.style/demos/reverse-scroll/css/ -->
-    <section class="columns" >
-        <ul class="column column-reverse">
-            <li><img src="{{customField.ImageUrl[0]}}"  alt="">
-                <p>Suriname 2020</p>
-            </li>
-            <li><img src="{{customField.ImageUrl[1]}}" alt="">
-                <p>Vormgeving 2021</p>
-            </li>
-            <li><img src="{{customField.ImageUrl[2]}}" alt="">
-                <p>Ace Ventura 2022</p>
-            </li>
-            <li><img src="{{customField.ImageUrl[3]}}" alt="">
-                <p>Bella kittycat 2021</p>
+            <li><a href="#">Privacy</a></li>
+            <li><a href="#">Algemene voorwaarden</a></li>
+            <li><a href="#">Cookiebeleid</a></li>
+            <li>
+                <div id="controls">
+                    <button onclick="toggleSnap()">Turn Snapping <span id="otherSnappingState">off</span></button>
+                    <button onclick="toggleDirection()">Change scroll to <span
+                            id="otherScrollState">vertical</span></button>
+                </div>
             </li>
         </ul>
-        <ul class="column">
-          <li><img src="{{customField.ImageUrl[4]}}" alt="">
-              <p>Me as a clown 2023</p>
-          </li>
-          <li><img src="{{customField.ImageUrl[5]}}" alt="">
-              <p>ComicCon 2024</p>
-          </li>
-          <li><img src="{{customField.ImageUrl[6]}}" alt="">
-              <p>Dutch design week 2024</p>
-          </li>
-          <li><img src="{{customField.ImageUrl[7]}}" alt="">
-              <p id="hobbies">Frankrijk 2024</p>
-          </li>
-      </ul>
-      <ul class="column column-reverse">
-        <li><img src="{{customField.ImageUrl[8]}}" alt="">
-            <p>Flowers 2022</p>
-        </li>
-        <li><img src="{{customField.ImageUrl[9]}}" alt="">
-            <p>Volleyball bros 2022</p>
-        </li>
-        <li><img src="{{customField.ImageUrl[10]}}" alt="">
-            <p>Karten 2022</p>
-        </li>
-        <li><img src="{{customField.ImageUrl[11]}}" alt="">
-            <p >Le-ann 2023</p>
-        </li>
-    </ul>
-    
-    </section>
-  
-    <section class="doelen">
-    <h1 class="doelen-titel">Wat zijn mijn hobbies?</h1>
-    <ul>
-      <li>
-        <div class="doelen-img-container">
-          <img src="{{customField.hobbiesImageUrl[0]}}" alt="">
-          <img src="{{customField.hobbiesImageUrl[1]}}" alt="">
-       </div> 
-       <div class="doel-content">
-        <h1>Volleybal</h1>
-        <p>Ik speel nu al 4 jaren volleybal en ben een buiten aanvaller. Als buitenaanvaller ben je verantwoordelijk voor de hoofd aanval en voor de hoofd verdediging. Samen met mijn team willen wij een keer kampioenschap behalen. Ik zie veel vooruitgang binnen de team.</p>
-       </div>
-     </li>
-     <li>
-      <div class="doelen-img-container">
-        <img src="{{customField.hobbiesImageUrl[2]}}" alt="">
-        <img src="{{customField.hobbiesImageUrl[3]}}" alt="">
-     </div> 
-     <div class="doel-content">
-      <h1>League of legends</h1>
-      <p>League of Legends.. Een spel die ik jaren heb kunnen spelen. Naar mijn mening is dit wel een van de beste games ontwikkeld omdat het een goede dopamine kick kan geven. Verslavend en slecht voor het leven, maar wel heel leuk.</p>
-     </div>
-    </li>
-    <li>
-      <div class="doelen-img-container">
-        <img src="{{customField.hobbiesImageUrl[4]}}" alt="">
-        <img src="{{customField.hobbiesImageUrl[5]}}" alt="">
-    </div> 
-    <div class="doel-content">
-      <h1>Spelletjes avond</h1>
-      <p  id="doelen">Samen met mijn vrienden plannen wij elke vrijdag een spelletjes avond. Wij spelen dan de hele avond bordspellen of kaartspelletjes. Een beetje socializen en niet isoleren. Mijn favoriete bordspellen zijn Unstable unicorns, Rummikub en Catan.</p>
-    </div>
-    </li>
-    </ul>
-  </section>
-  <!-- BRON stacking cards https://www.youtube.com/watch?v=Ea86A_2g8pQ&list=PL9PsgOMWUaZ21A3Guxzka44NSEA66FJYn&index=11 -->
-    <section class="hobbies">
-      <h1 class="hobbies-titel">Wat zijn mijn doelen?</h1>
-        <article id="hobby-1" class="hobby">
-          <ul class="hobby-wrapper">
-            <li class="hobby-image-container">
-              <img src="{{customField.doelImageUrl[0]}}" alt="" />
-            </li>
-            <li class="hobby-content-wrapper">
-              <h1>Een passie vinden in Webdesign/development</h1>
-              <p>
-                Graag wil ik een dagelijkse routine creeëren waarin webdevelopment oftewel coderen in mijn routine zit. Coderen vind ik zeker wel leuk maar ik zie er nog geen toekomst in. 
-                </p><p> tijdens deze minor vind ik hierin mijn toekomst en kan ik mijn carriére beginnen als web developer.
-              </p>
-          </li>
-          </ul>
-        </article>
-        <article id="hobby-2" class="hobby">
-          <ul class="hobby-wrapper">
-            <li class="hobby-image-container">
-              <img src="{{customField.doelImageUrl[1]}}" alt="" />
-            </li>
-            <li class="hobby-content-wrapper">
-              <h1>Leren animeren</h1>
-              <p>
-                De toekomst van reclames maken en mensen lokken naar je website zal zeker animaties worden. Een coole animatie kan als kunst gezien worden. 
-                </p><p>Een website ziet er naar mijn mening ook wel professioneler uit met animaties en voor de minder leuke mensen kunnen de animaties altijd uitgezet worden.
-              </p>
-          </li>
-          </ul>
-        </article>
-        <article id="hobby-3" class="hobby">
-          <ul class="hobby-wrapper">
-            <li class="hobby-image-container">
-              <img src="{{customField.doelImageUrl[2]}}" alt="" />
-            </li>
-            <li class="hobby-content-wrapper">
-              <h1>Niet meer bang zijn voor backend</h1>
-              <p>
-                Backend vind ik persoonlijk nogal eng omdat er met veel rekening mee gehouden moet worden. 
-                De taal vind ik nogal verwarrend, misschien omdat ik verkeerde leeraren heb gehad hiervoor. 
-                </p><p id="weekly">Ik heb vertrouwen erin dat samen met Sanne en Vasilis ik dit doel ga behalen.
-              </p>
-          </li>
-          </ul>
-        </article>
-      </section>
-      <section class="opdrachten">
-        <article class="opdracht opdracht-1">
-          <h1>Week 1</h1>
-          <ul class="opdr-1-container">
-            <li class="opdr-1-tekst-1-container">
-              <h1>{{data.name}}</h1>
-              <img src="{{data.avatar}}" alt="{{data.name}}">
-              <p>"{{data.nickname}}"</p>
-              <input type="date" value="{{data.birthdate}}">
-              <p>{{data.bio}}</p>
-            </li>
-            <li class="opdr-1-tekst-2-container">
-              <h2>Een lijst vol met mijn favoriete dingetjes</h2>
-              <ul class="opdr-1-tekst-2-tekst-container">
-                <li>kleur: <input type="color" value="{{data.fav_color}}"></li>
-                <li>property: {{data.fav_property}}</li>
-                <li>tag: {{data.fav_tag}}</li>
-                <li>attribute: {{data.fav_attribute}}</li>
-                <li>feature: {{data.fav_feature}}</li>
-                <li>eten: {{data.fav_kitchen}}</li>
-                <li>boeken genre: {{data.fav_book_genre}}</li>
-                <li>vakantie bestemming: {{data.fav_country}}</li>
-                <li>Wanneer heb ik het meeste energie? {{data.most_energy}}</li>
-                <li>koffie: {{data.fav_coffee}}</li>
-              </ul>
-            </li>
-          </ul>
-        </article>
-      </section>
-    </main>
-  </template>
+    </footer>
 
-<<<<<<< HEAD
-  <div id="result"><p>loading...</p></div>
-=======
     <script>
         function toggleSnap() {
             var snapEnabled = document.getElementById('carousel').classList.toggle('snap');
@@ -3348,44 +3036,9 @@ animation-delay:  calc(var(--index) * .5s);               animation-delay: calc(
             var isVertical = document.getElementById('carousel').classList.toggle('vertical');
             document.getElementById('otherScrollState').innerText = isVertical ? 'horizontal' : 'vertical';
         }
-
-        // Opslaan bij klik op nav links
-        document.querySelectorAll('nav a').forEach(link => {
-        link.addEventListener('click', () => {
-            const href = link.getAttribute('href');
-            localStorage.setItem('lastSection', href);
-        });
-        });
-
-        // Opslaan van Weekly Nerd selectie
-        document.querySelectorAll('input[name="WN-menu"]').forEach(input => {
-        input.addEventListener('change', () => {
-            if (input.checked) {
-            localStorage.setItem('lastWeeklyNerd', input.id);
-            }
-        });
-        });
-
-        window.addEventListener('load', () => {
-        const lastSection = localStorage.getItem('lastSection');
-        if (lastSection) {
-            document.querySelector(lastSection)?.scrollIntoView({ behavior: 'instant' });
-        }
-
-        const lastRadio = localStorage.getItem('lastWeeklyNerd');
-        if (lastRadio) {
-            const radioInput = document.getElementById(lastRadio);
-            if (radioInput) radioInput.checked = true;
-        }
-        });
-
-        
-
-
     </script>
->>>>>>> 3006f749832caef8270d7b179298eb90561eecf9
 
-  <script src="js/script.js" type="module"></script>
-  <!-- <script src="js/scripts.js"></script> -->
 </body>
+
+>>>>>>>>> Temporary merge branch 2
 </html>
